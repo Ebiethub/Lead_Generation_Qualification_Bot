@@ -2,3 +2,4 @@ streamlit
 langchain_groq
 langchain_core
 pandas
+dotenv
