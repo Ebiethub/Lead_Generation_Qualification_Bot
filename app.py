@@ -27,7 +27,7 @@ if "analytics" not in st.session_state:
     }
 
 # Groq Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 def init_groq():
     return ChatGroq(
