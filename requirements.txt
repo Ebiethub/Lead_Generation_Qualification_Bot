@@ -1,0 +1,9 @@
+streamlit
+langchain_groq
+langchain_core
+langchain_core
+pandas
+datetime
+re
+os
+dotenv
